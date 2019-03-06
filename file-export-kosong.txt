@@ -1,0 +1,46 @@
+Policy	Security Setting
+Access Credential Manager as a trusted caller	
+Access this computer from the network	Everyone,Administrators,Users,Backup Operators
+Act as part of the operating system	
+Add workstations to domain	
+Adjust memory quotas for a process	LOCAL SERVICE,NETWORK SERVICE,Administrators
+Allow log on locally	Administrators,Users,Backup Operators
+Allow log on through Remote Desktop Services	Administrators,Remote Desktop Users
+Back up files and directories	Administrators,Backup Operators
+Bypass traverse checking	Everyone,LOCAL SERVICE,NETWORK SERVICE,Administrators,Users,Backup Operators
+Change the system time	LOCAL SERVICE,Administrators
+Change the time zone	LOCAL SERVICE,Administrators
+Create a pagefile	Administrators
+Create a token object	
+Create global objects	LOCAL SERVICE,NETWORK SERVICE,Administrators,SERVICE
+Create permanent shared objects	
+Create symbolic links	Administrators
+Debug programs	Administrators
+Deny access to this computer from the network	
+Deny log on as a batch job	
+Deny log on as a service	
+Deny log on locally	
+Deny log on through Remote Desktop Services	
+Enable computer and user accounts to be trusted for delegation	
+Force shutdown from a remote system	Administrators
+Generate security audits	LOCAL SERVICE,NETWORK SERVICE
+Impersonate a client after authentication	LOCAL SERVICE,NETWORK SERVICE,Administrators,SERVICE
+Increase a process working set	Users
+Increase scheduling priority	Administrators
+Load and unload device drivers	Administrators
+Lock pages in memory	
+Log on as a batch job	Administrators,Backup Operators,Performance Log Users
+Log on as a service	NT SERVICE\ALL SERVICES
+Manage auditing and security log	Administrators
+Modify an object label	
+Modify firmware environment values	Administrators
+Obtain an impersonation token for another user in the same session	Administrators
+Perform volume maintenance tasks	Administrators
+Profile single process	Administrators
+Profile system performance	Administrators,NT SERVICE\WdiServiceHost
+Remove computer from docking station	Administrators
+Replace a process level token	LOCAL SERVICE,NETWORK SERVICE
+Restore files and directories	Administrators,Backup Operators
+Shut down the system	Administrators,Backup Operators
+Synchronize directory service data	
+Take ownership of files or other objects	Administrators
